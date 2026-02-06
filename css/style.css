@@ -166,6 +166,23 @@ section {
 }
 .btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(56,189,248,0.4); }
 
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 5px rgba(56,189,248,0.3);
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
   .hero-content h1 { font-size: 2.5rem; }
